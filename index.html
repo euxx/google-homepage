@@ -3,48 +3,54 @@
 	<head>
 		<title>Google</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="normalize.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
 	</head>	
 
 	<body>
 
 		<nav>
-			<li><a href="#">Gmail</a></li>
-			<li><a href="#">Images</a></li>
-			<li><a href="#">More</a></li>
-			<li><a href="#">Sign in</a></li>
+			<ul>
+				<li><a href="#">Gmail</a></li>
+				<li><a href="#">Images</a></li>
+				<li><a href="#">More</a></li>
+				<li><a href="#" class="sign-in">Sign in</a></li>
+			</ul>
 		</nav>
 
-		<div>
-			<div>
+		<div class="main-container">
+			<div class="logo">
 				<img src="images/googlelogo_color_272x92dp.png">
 			</div>
 		
 			<form action="#" method="get">
-				<div>
+				<div class="search-box">
 					<input type="text" name="search-box">
 				</div>
 
-				<div>
-					<input type="button" name="search" value="Google Search">					
-					<input type="button" name="lucky" value="I'm Feeling Lucky">
+				<div class="search-button">
+					<input class="btn" type="button" name="search" value="Google Search">					
+					<input class="btn" type="button" name="lucky" value="I'm Feeling Lucky">
 				</div>
 
 			</form>
 		</div>
 
 		<footer>
-			<div>
-				<li><a href="#">Advertising</ali>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">About</a></li>
+			<div class="left">
+				<ul>
+					<li><a href="#">Advertising</ali>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
 			</div>
 
-			<div>
-				<li><a href="#">Privacy</a></li>
-				<li><a href="">Terms</a></li>
-				<li><a href="#">Settings</a></li>
+			<div class="right">
+				<ul>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="">Terms</a></li>
+					<li><a href="#">Settings</a></li>
+				</ul>
 			</div>
 		</footer>
 
