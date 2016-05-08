@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<title>Google</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
-	</head>	
+	</head>
 
 	<body>
 
-		<nav>
-			<ul>
-				<li><a href="#">Gmail</a></li>
-				<li><a href="#">Images</a></li>
-				<li><a href="#">More</a></li>
-				<li><a href="#" class="sign-in">Sign in</a></li>
-			</ul>
-		</nav>
-
 		<div class="main-container">
+			<nav >
+				<ul class="clearfix">
+					<li><a href="#">Gmail</a></li>
+					<li><a href="#">Images</a></li>
+					<li><a href="#">More</a></li>
+					<li><a href="#" class="sign-in">Sign in</a></li>
+				</ul>
+			</nav>
+
 			<div class="logo">
 				<img src="images/googlelogo_color_272x92dp.png">
 			</div>
-		
+
 			<form action="#" method="get">
 				<div class="search-box">
 					<input type="text" name="search-box">
 				</div>
 
 				<div class="search-button">
-					<input class="btn" type="button" name="search" value="Google Search">					
+					<input class="btn" type="button" name="search" value="Google Search">
 					<input class="btn" type="button" name="lucky" value="I'm Feeling Lucky">
 				</div>
 
 			</form>
 		</div>
 
-		<footer>
-			<div class="left">
-				<ul>
-					<li><a href="#">Advertising</ali>
-					<li><a href="#">Business</a></li>
-					<li><a href="#">About</a></li>
-				</ul>
-			</div>
+		<footer class="clearfix">
 
-			<div class="right">
-				<ul>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="">Terms</a></li>
-					<li><a href="#">Settings</a></li>
-				</ul>
-			</div>
+			<ul class="left">
+				<li><a href="#">Advertising</ali>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+
+
+			<ul class="right">
+				<li><a href="#">Privacy</a></li>
+				<li><a href="">Terms</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
+
 		</footer>
 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+
 	</body>
+
 </html>
